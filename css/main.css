@@ -11,10 +11,115 @@
 }
 body {
   font-family: Inter, sans-serif;
+  padding: 50px;
 }
 p {
   font-size: 15px;
 }
 .navbar {
   width: 1000px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  align-items: center;
+}
+header nav a {
+  text-decoration: none;
+  color: var(--darkGreyishBlue);
+  padding: 0 1rem;
+}
+header nav a:hover {
+  color: var(--softRed);
+}
+header nav a:last-child {
+  padding-right: 0;
+}
+#top-content {
+  display: flex;
+  margin-top: 2rem;
+}
+#top-content #popular {
+  margin-right: 1.5rem;
+  width: 70%;
+}
+#top-content #popular img {
+  width: 100%;
+}
+#top-content #popular h1 {
+  float: left;
+  width: 40%;
+  margin-right: 3rem;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+#top-content #popular p {
+  color: var(--darkGreyishBlue);
+  padding: 1.5rem 0;
+}
+#top-content #popular button {
+  text-transform: uppercase;
+  background-color: var(--veryDarkBlue);
+  border: none;
+  color: var(--offWhite);
+  padding: 0.7rem 2rem;
+  letter-spacing: 3px;
+}
+#top-content #popular button:hover {
+  cursor: pointer;
+}
+#top-content #new {
+  width: 30%;
+  background-color: var(--veryDarkBlue);
+  padding: 1rem;
+}
+#new h2 {
+  color: var(--softOrange);
+  margin: 0;
+  font-size: 2rem;
+}
+#new .articles {
+  border-bottom: 1px solid var(--darkGreyishBlue);
+}
+#new .articles:last-child {
+  border-bottom: none;
+}
+#new .articles h3 {
+  color: var(--offWhite);
+  font-size: 1.1rem;
+}
+#new .articles h3:hover {
+  cursor: pointer;
+  color: var(--softOrange);
+}
+#new .articles p {
+  color: var(--offWhite);
+}
+#trending {
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+#trending .trending-articles {
+  width: 33.33%;
+}
+#trending .trending-articles img {
+  float: left;
+  margin-right: 1rem;
+  width: 30%;
+}
+#trending .trending-articles .title {
+  color: var(--grayishBlue);
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+#trending .trending-articles h3:hover {
+  color: var(--softRed);
+  cursor: pointer;
+}
+#trending .trending-articles p {
+  color: var(--darkGreyishBlue);
 }
