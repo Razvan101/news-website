@@ -1,0 +1,77 @@
+#menu-icon {
+  display: inline-block;
+  cursor: pointer;
+}
+body {
+  padding: 1rem;
+}
+#top-content {
+  flex-direction: column;
+}
+#top-content #popular {
+  width: 100%;
+}
+#top-content #popular h1 {
+  width: 100%;
+  font-size: 4rem;
+}
+#top-content #popular p {
+  font-size: 1.5rem;
+}
+#top-content #popular button {
+  background-color: var(--softRed);
+  float: none;
+  margin: 2rem 0 4rem auto;
+}
+#top-content #new {
+  width: 100%;
+}
+#top-content #new .articles h3 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+#top-content #new .articles p {
+  font-size: inherit;
+}
+#trending {
+  flex-direction: column;
+}
+#trending .trending-articles {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+#trending .trending-articles .title {
+  font-size: 1.6rem;
+}
+#trending .trending-articles h3 {
+  font-size: inherit;
+  margin-top: 1rem;
+}
+#trending .trending-articles p {
+  font-size: inherit;
+}
+header #navigation-bar {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 70%;
+  top: 0;
+  background-color: var(--offWhite);
+  right: 0;
+  height: 100vh;
+}
+header #navigation-bar a {
+  display: block;
+  margin: 2rem;
+  color: #000;
+}
+header #navigation-bar a:first-child {
+  margin-top: 60%;
+}
+#close-menu {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  cursor: pointer;
+  padding: 1.5rem;
+}

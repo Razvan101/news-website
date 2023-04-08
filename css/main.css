@@ -36,6 +36,9 @@ header nav a:hover {
 header nav a:last-child {
   padding-right: 0;
 }
+#menu-icon {
+  display: none;
+}
 #top-content {
   display: flex;
   margin-top: 2rem;
@@ -98,7 +101,7 @@ header nav a:last-child {
 }
 #trending {
   display: flex;
-  margin-top: 3rem;
+  margin-top: 5rem;
   align-items: center;
   justify-content: space-between;
 }
@@ -122,4 +125,40 @@ header nav a:last-child {
 }
 #trending .trending-articles p {
   color: var(--darkGreyishBlue);
+}
+@media screen and (max-width: 900px){
+  header nav a {
+    padding: 0 0.4rem;
+  }
+  #top-content #popular {
+    margin-right: 1rem;
+    width: 60%;
+  }
+  #top-content #popular h1 {
+    font-size: 2rem;
+  }
+  #top-content #popular button {
+    float: right;
+    margin-right: 2rem;
+  }
+  #top-content #new {
+    width: 40%;
+  }
+  #new .articles h3 {
+    font-size: 0.9rem;
+  }
+  #new .articles p {
+    font-size: 0.8rem;
+  }
+  #trending .trending-articles .title {
+    font-size: 1rem;
+  }
+  #trending .trending-articles h3 {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  #trending .trending-articles p {
+    font-size: 0.7rem;
+    padding-right: 10px;
+  }
 }

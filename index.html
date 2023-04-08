@@ -4,29 +4,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>News Webpage</title>
+  <title>Frontend Mentor | News Webpage</title>
   <link rel="icon" href="images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 600px)">
 </head>
 <body>
   <header>
     <div id="logo"><a href="#"><img src="images/logo.svg" alt="The letter W"></a></div>
-    <nav>
+    <nav id="navigation-bar">
       <a href="#">Home</a>
       <a href="#new">New</a>
       <a href="#popular">Popular</a>
       <a href="#trending">Trending</a>
       <a href="#categories">Categories</a>
     </nav>
+    <img id="menu-icon" src="images/icon-menu.svg" alt="Menu icon">
   </header>
   <div id="main-content">
     <div id="top-content">
       <div id="popular">
-        <img src="images/image-web-3-desktop.jpg" alt="An image of legos">
+        <img src="images/image-web-3-desktop.jpg" alt="An image of legos" id="top-img">
         <h1>The Bright Future of Web 3.0?</h1>
         <div id="article">
           <p>We dive into the next evolution of te web that claims to put the power of the platforms back into the hands of the people. But it is reallu fulfilling its promise?</p>
