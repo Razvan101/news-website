@@ -17,3 +17,5 @@ function displayMenu(){
   }
   console.log(listEl);
 }
+
+
